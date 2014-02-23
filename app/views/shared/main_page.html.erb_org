@@ -1,0 +1,25 @@
+<h1>Welcome to the dashboard page </h1>
+<div class="container-fluid">
+<div class="row-fluid">
+ <div class="span2">
+  <h2>Item</h2>
+  <nav>
+  <ul class="nav">
+   <li class="active">
+    <a href="students_path">Students</a>
+   </li>
+   <li><%= link_to "Courses" , signup_path %></li> 
+  <li><a href="#">Faculty</a></li>
+  <li><a href="#">Courses</a></li>
+  <li><a href="#">Fees</a></li>
+ </ul>
+ </nav>
+ </div>
+ <div class="span10">
+  <h2>Details</h2>
+  <div class="container">
+   <%= yield %>
+  </div>
+ </div>
+</div>
+</div>

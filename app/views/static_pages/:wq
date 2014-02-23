@@ -1,0 +1,33 @@
+<div class="container">
+<div class="navbar">
+
+<div class="hero-unit">
+    <h1>Welcome to easymanage</h1>
+ 
+    <p>One stop solution for managing your institute records better. We offer a comprehensive cloud based solution which is easy to use and secure.  </p>
+ 
+    <a href="#" class="btn btn-large btn-success">Get Started</a>
+ </div>
+
+<div class="row">
+<div class="span4">
+        <h4 class="muted text-center">Meet Our Clients</h4>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <a href="#" class="btn"><i class="icon-user"></i> Our Clients</a>
+    </div>
+    <div class="span4">
+        <h4 class="muted text-center">Know Our Employees</h4>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <a href="#" class="btn btn-success"><i class="icon-star icon-white"></i> Our Employees</a>
+    </div>
+    <div class="span4">
+        <h4 class="muted text-center">Reach Us</h4>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <a href="#" class="btn btn-info">Contact Us</a>
+    </div>
+</div>
+<hr>
+<div class="footer">
+<p>&copy; All rights reserved with easymanage.in</p>
+</div>
+</div>

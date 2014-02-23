@@ -1,0 +1,23 @@
+<% provide(:title, @user.name) %>
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+   </aside>
+
+    <h2>
+  <nav>
+    <ul>
+    <li><%= #link_to "Create",   new_student_path %></li>
+     <li><%=# link_to "Show",   student_show_path %></li>
+    <li><%= # link_to "Edit",   student_edit_path %></li>
+      <li><%=# link_to "Delete", student_delete_path %></li>
+    </ul>
+  </nav>
+   </h2>
+</div>
+

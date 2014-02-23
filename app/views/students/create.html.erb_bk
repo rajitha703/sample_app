@@ -1,0 +1,30 @@
+<h1>Welcome to the student registration page</h1>
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@student) do |f| %>
+      
+      <%= f.label :first_name %>
+      <%= f.text_field :FIRST_NAME %>
+
+      <%= f.label :middle_name %>
+      <%= f.text_field :MIDDLE_NAME %>
+
+     <%= f.label :last_name %>
+      <%= f.text_field :LAST_NAME %>
+
+      <%= f.label :date_of_birth %>
+      <%= f.text_field :DATE_OF_BIRTH %>
+
+     <%= f.label :age %>
+      <%= f.text_field :AGE %>
+
+       <%= f.label :gender %>
+      <%= f.text_field :GENDER %>
+
+       <%= f.label :nationality %>
+      <%= f.text_field :NATIONALITY %>
+
+      <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
+     <% end %>
+  </div>
+</div>
