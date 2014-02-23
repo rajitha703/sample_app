@@ -1,11 +1,18 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "sample app", root_path, id: "logo" %>
+      <%= link_to "", root_path, id: "logo" %>
       <nav>
-        <ul class="nav pull-right">
+        <ul class="nav pull-left">
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "Help", help_path %></li>
+          <li><%= link_to "Products", help_path %></li>
+           <li><%= link_to "Downloads", root_path %></li>
+          <li><%= link_to "About", help_path %></li>
+           <li><%= link_to "Help", root_path %></li>
+          <li><%= link_to "Contact", help_path %></li>
+       </ul>   
+        <ul class="nav pull-right">
+          <li><%= link_to "Sign up", signup_path %></li>
           <% if signed_in? %>
                 <li>
                   <%= link_to "Sign out", signout_path, method: "delete" %>
